@@ -23,23 +23,32 @@ brew gdbm
 brew gettext
 brew gh
 brew gmp
+<<<<<<< HEAD
 brew gnutls
 brew guile
+=======
+brew httpie
+>>>>>>> refs/remotes/origin/main
 brew icu4c
 brew jansson
 brew jq
 brew krb5
+<<<<<<< HEAD
 brew libevent
 brew libffi
 brew libidn2
 brew libnghttp2
 brew libtasn1
+=======
+brew libidn2
+>>>>>>> refs/remotes/origin/main
 brew libtermkey
 brew libtool
 brew libunistring
 brew libuv
 brew libyaml
 brew luajit
+brew luajit-openresty
 brew luv
 brew lz4
 brew m4
@@ -51,12 +60,22 @@ brew nettle
 brew node
 brew oniguruma
 brew openssl@1.1
+<<<<<<< HEAD
 brew p11-kit
 brew pcre2
 brew peco
 brew pkg-config
 brew postgresql@14
 brew prettier
+=======
+brew openssl@3
+brew pcre2
+brew peco
+brew pipx
+brew pkg-config
+brew postgresql
+brew pyenv
+>>>>>>> refs/remotes/origin/main
 brew python@3.10
 brew python@3.9
 brew readline
@@ -68,9 +87,19 @@ brew tree-sitter
 brew unbound
 brew unibilium
 brew unixodbc
+brew wget
 brew xz
 
+<<<<<<< HEAD
 tap homebrew/bundle
+=======
+tap homebrew/cask-fonts
+cask font-fira-code-nerd-font
+cask font-jetbrains-mono-nerd-font
+cask font-mononoki-nerd-font
+
+tap homebrew/services
+>>>>>>> refs/remotes/origin/main
 
 tap homebrew/cask
 cask bunch
@@ -91,6 +120,13 @@ brew azure-functions-core-tools@4
 
 tap homeport/tap
 
+tap azure/functions
+brew azure-functions-core-tools@4
+
+tap microsoft/mssql-release
+brew msodbcsql18
+brew mssql-tools18
+
 tap rcmdnk/file
 brew brew-file
 
@@ -100,8 +136,8 @@ brew termshot
 # App Store applications
 appstore 1569813296  1Password for Safari  (2.3.7)
 appstore 1547371478  Acorn                 (7.2)
-appstore 1287239339  ColorSlurp            (3.6.0)
-appstore 1113361350  Cubox                 (7.1.1)
+appstore 404009241   BBEdit                (14.5.1)
+appstore 1287239339  ColorSlurp            (3.4.0)
 appstore 1453273600  Data Jar              (1.1.4)
 appstore 290986013   Deliveries            (9.3.2)
 appstore 1435957248  Drafts                (32.2.1)
@@ -111,6 +147,8 @@ appstore 1474335294  GoodLinks             (1.6)
 appstore 1533590432  Homie                 (1.1.1)
 appstore 1544743900  Hush                  (1.0.8)
 appstore 408981434   iMovie                (10.3.4)
+appstore 424389933   Final Cut Pro         (10.6.3)
+appstore 408981434   iMovie                (10.3.3)
 appstore 409183694   Keynote               (12.1)
 appstore 1558453954  Keyword Search        (2.0.3)
 appstore 1493326487  Levelator             (3.0.2)
